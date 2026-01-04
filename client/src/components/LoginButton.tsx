@@ -7,9 +7,11 @@ const LoginButton = () => {
     return (
         <Button
             onClick={() => loginWithRedirect()}
-            bg="white"
-            color="teal.600"
-            _hover={{ bg: "gray.100" }}
+            bg="teal.600"
+            color="white"
+            width="full"
+            size="lg"
+            _hover={{ bg: "teal.700" }}
         >
             Log In
         </Button>

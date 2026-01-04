@@ -81,8 +81,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/VinayakPaka/Books.git
-cd book-management-dashboard
+git clone https://github.com/VinayakPaka/Book-Management.git
 ```
 
 ### 2. Install Dependencies

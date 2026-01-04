@@ -18,7 +18,7 @@ const AuthorizedApolloProvider = ({ children }: { children: React.ReactNode }) =
   const { getAccessTokenSilently, isAuthenticated } = useAuth0();
 
   const httpLink = createHttpLink({
-    uri: 'http://localhost:3000/graphql',
+    uri: import.meta.env.VITE_GRAPHQL_URI || 'http://localhost:3000/graphql',
   });
 
   const authLink = setContext(async (_, { headers }) => {
